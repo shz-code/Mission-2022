@@ -1,0 +1,143 @@
+:root {
+    --primary-color: #92E3A9;
+    --secondary-color: #92c4e3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.theme-color {
+    color: var(--primary-color);
+}
+
+.flex-box {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#hero{
+    align-items: center;
+}
+
+#hero #hero-title {
+    font-size: 4rem;
+    border-left: 5px solid var(--primary-color);
+    padding-left: 5px;
+}
+
+#hero .half {
+    width: 50%;
+    text-align: justify;
+}
+
+#hero .half img {
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+#mission h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#mission .card-box{
+    margin: 40px 0;
+    justify-content: space-between;
+}
+#mission .card-box .mission-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.384);
+}
+
+#mission .card-box .mission-card img {
+    width: 80%;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.384));
+}
+
+#left-banner{
+    column-gap: 30px;
+    align-items: center;
+}
+
+#left-banner .left-banner-half{
+    width: 50%;
+}
+#left-banner .left-banner-half img{
+    width: 100%;
+}
+
+#left-banner .left-banner-half-info{
+    text-align: justify;
+}
+
+#right-banner{
+    column-gap: 30px;
+    align-items: center;
+}
+
+#right-banner .right-banner-half-info{
+    width: 60%;
+    text-align: justify;
+}
+
+#right-banner .right-banner-half{
+    width: 40%;
+    text-align: justify;
+}
+
+#right-banner .right-banner-half img{
+    width: 100%;
+}
+
+#plan h1 {
+    text-transform: capitalize;
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-size: 25px;
+}
+
+#plan .plan-card {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+#plan .plan-card img {
+    width: 70%;
+}
+
+#plan .plan-card p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding-bottom: 10px;
+}
+
+footer span {
+    color: black;
+}
