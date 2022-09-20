@@ -141,3 +141,59 @@ footer {
 footer span {
     color: black;
 }
+
+@media (max-width: 1000px) {
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero .half {
+        width: 100%;
+    }
+    #hero{
+        flex-direction: column-reverse;
+    }
+    #mission .card-box .mission-card {
+        margin: 20px 0;
+        width: 60%;
+    }
+    #left-banner {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+    #left-banner .left-banner-half-info {
+        text-align: center;
+    }
+    #right-banner {
+        row-gap: 40px;
+    }
+    #right-banner .right-banner-half-info {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 690px) {
+    .container {
+        width: 90%;
+    }
+    #hero #hero-title {
+        font-size: 3rem;
+    }
+    #mission .card-box .mission-card {
+        width: 80%;
+    }
+    #left-banner .left-banner-half {
+        width: 70%;
+    }
+    #right-banner .right-banner-half {
+        width: 70%;
+    }
+    #plan .plan-card {
+        width: 100%;
+    }
+    #plan .plan-card img {
+        width: 70%;
+    }
+}
